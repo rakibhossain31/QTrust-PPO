@@ -1,8 +1,13 @@
-# QTrust-PPO Reproducibility Package
+# QTrust-PPO
 
 **QTrust-PPO: Confidence-Aware Finite-Shot Policy Optimization for Variational Quantum Reinforcement Learning**
 
-This repository contains the executable notebooks, run-level outputs, processed statistics, and figure/table artifacts used to evaluate QTrust-PPO.
+This repository contains the executable notebooks, processed statistical
+results, figures, and table data used to evaluate QTrust-PPO.
+
+The complete run-level experimental archive, including evaluation episodes,
+update traces, and intermediate outputs, is maintained separately as an
+archival research dataset.
 
 ## Contents
 
@@ -11,9 +16,6 @@ This repository contains the executable notebooks, run-level outputs, processed 
 
 - `notebooks/02_QTrust_PPO_Ablations_Robustness_and_Analysis.ipynb`  
   Confidence and rollback ablations, output-noise robustness, VQC depth analysis, confidence-bound comparison, consolidated statistics, and integrity checks.
-
-- `data/`  
-  Run-level and experiment-level outputs. Evaluation episodes remain nested within their corresponding training seed.
 
 - `statistics/`  
   Seed-level paired analyses, diagnostic summaries, confidence-bound comparisons, and the statistical protocol.
@@ -53,10 +55,6 @@ The independent training seed is the inferential unit for reinforcement-learning
 ## QTrust confidence rule
 
 For a finite schedule of `K` measurement stages, QTrust uses exact one-sided Clopper-Pearson limits with per-tail level `delta/(4K)`. The four tails correspond to lower and upper bounds for the old and candidate action probabilities. The resulting ratio interval is evaluated only against the PPO clipping boundary relevant to the sign of the advantage.
-
-## Notebook cleanup
-
-The release notebooks were cleaned for public use by removing execution output, decorative headings, and workflow-specific commentary. Executable Python tokens were preserved exactly; the numerical and algorithmic code was not altered.
 
 ## Integrity
 
