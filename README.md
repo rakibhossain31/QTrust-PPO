@@ -56,3 +56,5 @@ The independent training seed is the inferential unit for reinforcement-learning
 ## QTrust confidence rule
 
 For a finite schedule of `K` measurement stages, QTrust uses exact one-sided Clopper-Pearson limits with per-tail level `delta/(4K)`. The four tails correspond to lower and upper bounds for the old and candidate action probabilities. The resulting ratio interval is evaluated only against the PPO clipping boundary relevant to the sign of the advantage.
+
+[![DOI](https://zenodo.org/badge/1378331890.svg)](https://doi.org/10.5281/zenodo.22859416)
