@@ -1,0 +1,4 @@
+variant,Seeds,Mean_Unresolved,Mean_Adaptive_Shots,Mean_Training_Shots,Accepted_Updates,Rolled_Back_Updates
+B_Delta_001,10,0.00048828125,3615.984375,18400224.0,630,10
+B_Delta_010,10,4.8828125e-05,2376.9625,15862707.2,639,1
+B_NoRollback,10,9.765625e-05,2757.771875,16643628.8,640,0

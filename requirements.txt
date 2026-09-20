@@ -1,0 +1,12 @@
+gymnasium[box2d]==1.2.0
+pennylane==0.45.1
+pennylane-lightning-gpu==0.45.0
+scipy==1.16.3
+numpy
+pandas
+matplotlib
+statsmodels
+tqdm
+
+# Reference GPU environment used PyTorch 2.10.0+cu128 supplied by Kaggle.
+# Keep a CUDA-compatible platform build of PyTorch when reproducing on GPU.

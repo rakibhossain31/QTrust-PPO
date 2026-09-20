@@ -1,0 +1,3 @@
+variant,layers,quantum_parameters,Seeds,Mean_Unresolved,Mean_Adaptive_Shots,Mean_Training_Shots,Accepted_Updates,Rolled_Back_Updates,Mean_Runtime_s
+D_Layers_1,1,8,10,9.765625e-05,2735.921875,8221126.4,638,2,188.43318553240002
+D_Layers_4,4,32,10,0.002001953125,2724.696875,20764460.8,604,36,1742.5103205458

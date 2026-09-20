@@ -1,0 +1,4 @@
+Environment,Training Seeds,Classification Accuracy,Mean Unresolved Fraction,Mean Adaptive Shots / Ratio,Accepted Updates,Rolled-back Updates,Mean Certification Shots
+CartPole-v1,10,1.0,9.765625e-05,2756.384375,638,2,5645075.2
+Acrobot-v1,10,1.0,0.065673828125,4547.3375,146,1134,18625894.4
+LunarLander-v3,10,1.0,0.1771484375,5758.65625,0,1280,23587456.0

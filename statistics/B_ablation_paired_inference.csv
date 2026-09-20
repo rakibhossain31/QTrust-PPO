@@ -1,0 +1,4 @@
+Family,Target,Reference,N,Target Mean Reward,Reference Mean Reward,Mean Difference,Median Difference,Bootstrap CI Low,Bootstrap CI High,Wilcoxon Statistic,Raw P,Paired Rank-Biserial,Holm P,Holm Significant 0.05
+Experiment_B_Ablations,B_Delta_001,A_Full_QTrust_delta_005,10,17.01333333333333,17.236666666666665,-0.22333333333333324,0.0,-1.1166666666666665,0.5399999999999997,6.0,0.8125,-0.2,1.0,False
+Experiment_B_Ablations,B_Delta_010,A_Full_QTrust_delta_005,10,17.236666666666665,17.236666666666665,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,False
+Experiment_B_Ablations,B_NoRollback,A_Full_QTrust_delta_005,10,17.269999999999996,17.236666666666665,0.033333333333333395,0.0,0.0,0.10000000000000017,0.0,1.0,1.0,1.0,False

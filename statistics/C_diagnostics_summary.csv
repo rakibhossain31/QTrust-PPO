@@ -1,0 +1,7 @@
+variant,method,Seeds,Mean_Unresolved,Mean_Adaptive_Shots,Mean_Training_Shots,Accepted_Updates,Rolled_Back_Updates
+C_Depolarizing_0005,Fixed-QPPO-128,10,0.0,0.0,10992640.0,640,0
+C_Depolarizing_0005,Fixed-QPPO-256,10,0.0,0.0,22016000.0,640,0
+C_Depolarizing_0005,QTrust-PPO-128,10,0.000146484375,2732.10625,16589529.6,637,3
+C_Readout_002,Fixed-QPPO-128,10,0.0,0.0,10994688.0,640,0
+C_Readout_002,Fixed-QPPO-256,10,0.0,0.0,22012928.0,640,0
+C_Readout_002,QTrust-PPO-128,10,0.0,2745.359375,16619232.0,640,0

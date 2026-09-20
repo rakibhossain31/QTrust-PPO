@@ -1,0 +1,27 @@
+{
+  "cell": 8,
+  "parent_protocol_hash": "3cf4bcb18e1111b3",
+  "journal_protocol_hash": "4534e690e365694c",
+  "inferential_unit": "training seed",
+  "n_training_seeds": 10,
+  "seed_values": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    107,
+    131,
+    157,
+    181
+  ],
+  "confidence_interval": "95% Student-t CI across training seeds",
+  "paired_reward_test": "two-sided Wilcoxon signed-rank",
+  "effect_size": "paired rank-biserial correlation",
+  "paired_difference_ci": "paired nonparametric bootstrap mean-difference CI, 50000 resamples",
+  "multiplicity": "Holm correction within each predefined comparison family",
+  "experiment_A_source": "/kaggle/working/QTrust_PPO_Journal/experiment_A_frozen/reference/all_completed_runs.csv",
+  "experiment_E_paired_design": "confidence methods applied to identical Case \u00d7 Repeat sample paths",
+  "statistical_protocol_hash": "e3db60be177dbf6b"
+}

@@ -1,0 +1,3 @@
+Family,Target,Reference,N,Target Mean Reward,Reference Mean Reward,Mean Difference,Median Difference,Bootstrap CI Low,Bootstrap CI High,Wilcoxon Statistic,Raw P,Paired Rank-Biserial,Layers,Quantum Parameters,Holm P,Holm Significant 0.05
+Experiment_D_Depth,D_Layers_1,A_Layers_3_Reference,10,17.93,17.236666666666665,0.6933333333333327,0.2666666666666684,-2.0634166666666665,3.4533333333333305,24.0,0.76953125,0.12727272727272726,1,8,0.76953125,False
+Experiment_D_Depth,D_Layers_4,A_Layers_3_Reference,10,15.776666666666666,17.236666666666665,-1.4599999999999995,-1.1500000000000004,-3.556666666666666,0.5066666666666672,17.0,0.322265625,-0.38181818181818183,4,32,0.64453125,False

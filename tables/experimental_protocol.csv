@@ -1,0 +1,13 @@
+Item,Frozen setting
+Protocol hash,3cf4bcb18e1111b3
+Training seeds,"11, 23, 37, 53, 71, 89, 107, 131, 157, 181"
+Environments,"CartPole-v1, Acrobot-v1, LunarLander-v3"
+Main VQC,"4 qubits, 3 layers, 24 trainable quantum angles"
+Fixed-shot baselines,128 and 256 shots
+QTrust base shots,128
+QTrust schedule,"32, 64, 128, 256, 512, 1024, 2048, 4096"
+QTrust delta,0.05
+PPO clipping epsilon,0.20
+PPO update epochs,1
+Evaluation episodes / training seed,30
+Inferential unit,Independent training seed

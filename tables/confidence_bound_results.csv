@@ -1,0 +1,4 @@
+Method,Total Trials,Resolved Trials,Unresolved Trials,Resolved Coverage,Unresolved Rate,Resolved Accuracy,Incorrect Resolved Rate,False Positive Rate,False Negative Rate,Mean Shots / Policy,Mean Total Probability Shots,Median Total Probability Shots,Maximum Total Probability Shots
+Clopper-Pearson,22800,13653,9147,0.5988157894736842,0.4011842105263158,1.0,0.0,0.0,0.0,2148.851929824561,4297.703859649123,2048.0,8192
+Wilson,22800,13683,9117,0.6001315789473685,0.3998684210526316,1.0,0.0,0.0,0.0,2136.5908771929826,4273.181754385965,2048.0,8192
+Hoeffding,22800,12850,9950,0.5635964912280702,0.4364035087719298,1.0,0.0,0.0,0.0,2388.9108771929823,4777.821754385965,4096.0,8192
