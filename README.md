@@ -46,7 +46,8 @@ The notebooks retain the original Kaggle workspace paths and execution logic use
 2. Run `02_QTrust_PPO_Ablations_Robustness_and_Analysis.ipynb` after the primary benchmark workspace is available.
 3. Use the included CSV outputs for statistical verification without rerunning the full GPU workload.
 
-The distributed notebooks are intentionally stored without cell output. Figures, tables, run-level data, and statistical summaries are provided separately.
+The distributed notebooks are stored without execution output. Processed
+figures, tables, and statistical summaries are included in this repository.
 
 ## Statistical unit
 
