@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "QTrust-PPO: Confidence-Aware Finite-Shot Policy Optimization for Variational Quantum Reinforcement Learning"
+message: "If you use this repository, please cite the associated research article."
+
+type: software
+
+authors:
+  - family-names: "Hossain"
+    given-names: "Rakib"
+
+repository-code: "https://github.com/rakibhossain31/QTrust-PPO"
+
+license: MIT
+
+keywords:
+  - quantum reinforcement learning
+  - quantum policy optimization
+  - variational quantum circuits
+  - finite-shot optimization
+  - proximal policy optimization
